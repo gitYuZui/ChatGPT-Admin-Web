@@ -30,7 +30,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "clean": "pnpm recursive exec -- rm -rf node_modules"
+    "clean": "pnpm recursive exec -- rm -rf node_modules",
+    "test": "node demo/testRedis.js"
+
   },
   "dependencies": {
     "@edge-runtime/ponyfill": "^2.1.2",
