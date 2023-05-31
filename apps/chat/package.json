@@ -31,7 +31,7 @@
     "start": "next start",
     "lint": "next lint",
     "clean": "pnpm recursive exec -- rm -rf node_modules",
-    "test": "node demo/testRedis.js"
+    "test": "node src/demo/testRedis.js"
 
   },
   "dependencies": {
