@@ -28,7 +28,8 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "test": "node demo/testRedis.js"
   },
   "devDependencies": {
     "turbo": "latest"
