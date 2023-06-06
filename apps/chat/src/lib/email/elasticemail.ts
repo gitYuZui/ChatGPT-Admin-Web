@@ -15,7 +15,7 @@ export default async function sendEmail(to: string, code: string | number) {
     // subject: "[ChatGPT-Admin-Web] 激活码",
     // bodyHtml: `您的激活码是：${code}`,
   };
-
+  console.log("发送邮箱：",params)
   const formData = new FormData();
   for (const key in params) {
     // @ts-ignore
