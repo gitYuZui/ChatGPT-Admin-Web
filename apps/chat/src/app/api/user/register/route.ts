@@ -1,3 +1,10 @@
+/*
+ * @Autor: zzz
+ * @Description: 
+ * @Date: 2023-05-31 10:59:12
+ * @LastEditors: OBKoro1
+ * @LastEditTime: 2023-06-06 16:41:48
+ */
 import { NextRequest, NextResponse } from "next/server";
 import {
   UserDAL,
@@ -25,6 +32,11 @@ export async function POST(req: NextRequest): Promise<Response> {
     if (await userDal.exists(email)) {
       // User already exists.
       return NextResponse.json({ status: ResponseStatus.alreadyExisted });
+    }
+
+    if (invitation_code != 6666) {
+      // User already exists.
+      return NextResponse.json({ status: ResponseStatus.invalidCodeError });
     }
 
     /* Activation verification code */

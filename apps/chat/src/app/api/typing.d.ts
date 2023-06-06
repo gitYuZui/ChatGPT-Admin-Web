@@ -5,6 +5,7 @@ export enum ResponseStatus {
   Failed,
   tooFast,
   invalidCode,
+  invalidCodeError,
   notExist,
   alreadyExisted,
   contentBlock,
