@@ -1,3 +1,10 @@
+/*
+ * @Autor: zzz
+ * @Description: 
+ * @Date: 2023-05-31 10:59:12
+ * @LastEditors: OBKoro1
+ * @LastEditTime: 2023-06-06 15:42:23
+ */
 /**
  * This is a program for sending emails, with the email service provided by Mailgun.
  * TODO Further processing of error reporting for emails.

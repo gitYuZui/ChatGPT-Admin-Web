@@ -8,9 +8,12 @@ export default async function sendEmail(to: string, code: string | number) {
   const params = {
     apikey: apiKey,
     from: senderEmail,
+    template: "verification_code",
+    merge_name:to,
+    merge_code:code,
     to: to,
-    subject: "[ChatGPT-Admin-Web] 激活码",
-    bodyHtml: `您的激活码是：${code}`,
+    // subject: "[ChatGPT-Admin-Web] 激活码",
+    // bodyHtml: `您的激活码是：${code}`,
   };
 
   const formData = new FormData();
