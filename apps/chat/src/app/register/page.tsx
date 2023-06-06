@@ -72,6 +72,10 @@ export default function Register() {
         showToast(Locales.Index.CodeError);
         break;
       }
+      case ResponseStatus.invalidCodeError: {
+        showToast(Locales.Index.InvalidCodeError);
+        break;
+      }
       default: {
         showToast(Locales.UnknownError);
         break;

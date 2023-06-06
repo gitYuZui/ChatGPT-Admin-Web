@@ -19,6 +19,7 @@ const cn = {
     NotYetRegister: "新用户，请先注册",
     DuplicateRegistration: "该邮箱已被注册",
     CodeError: "验证码错误",
+    InvalidCodeError: "禁止注册",
     PasswordError: "密码错误",
   },
   UnknownError: "未知错误，请联系管理员",
