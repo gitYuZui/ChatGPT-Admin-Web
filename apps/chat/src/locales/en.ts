@@ -22,6 +22,7 @@ const en: LocaleType = {
     NotYetRegister: "New users, please register first.",
     DuplicateRegistration: "This email has already been registered.",
     CodeError: "Verification code error.",
+    InvalidCodeError: "Prohibit registration.",
     PasswordError: "Incorrect password.",
   },
   UnknownError: "Unknown error, please contact the administrator.",
